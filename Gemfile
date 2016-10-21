@@ -35,6 +35,10 @@ gem 'nominatim', '~> 0.0.5'
 
 gem 'pg', '~> 0.18.4', group: :production
 
+gem 'forecast_io', '~> 2.0'
+
+gem 'typhoeus', '~> 1.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -46,4 +50,3 @@ gem 'pg', '~> 0.18.4', group: :production
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
