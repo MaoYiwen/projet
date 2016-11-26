@@ -22,4 +22,16 @@ class CityTest < ActiveSupport::TestCase
         assert city.invalid?
     end
   end
-end
+
+
+test 'weather forecast unknown city ' do 
+     VCR.use_cassette("weather") do
+       weather = cities(:one).weather
+      /* puts weather */
+       /* assert cities(:one).weather */
+       assert weather == 'unknown'
+     end 
+    end
+
+
+  end
