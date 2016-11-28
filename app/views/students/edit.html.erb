@@ -2,5 +2,7 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @student %> |
-<%= link_to 'Back', students_path %>
+<div class="btn-defaut">
+  <button type="button" class="btn btn-default btn-sm"><%= link_to 'Back', students_path %></button>
+  <button type="button" class="btn btn-default btn-sm"><%= link_to 'Show', @student %></button>
+</div>

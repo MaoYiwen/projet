@@ -16,14 +16,27 @@
         <td><%= city.name %></td>
         <td><%= city.lat %></td>
         <td><%= city.lon %></td>
-        <td><%= link_to 'Show', city %></td>
-        <td><%= link_to 'Edit', edit_city_path(city) %></td>
-        <td><%= link_to 'Destroy', city, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td>
+           <div class="btn-defaut">
+          <button type="button" class="btn btn-default btn-sm"><%= link_to 'Show', city %></button>
+          </div> 
+        </td>
+        <td>
+           <div class="btn-defaut">
+          <button type="button" class="btn btn-default btn-sm"><%= link_to 'Edit', edit_city_path(city) %></button>
+          </div> 
+        </td>
+        <td>
+          <div class="btn-defaut">
+          <button type="button" class="btn btn-default btn-sm"><%= link_to 'Destroy', city %></button>
+          </div>
+        </td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New City', new_city_path %>
+<div class="btn-defaut">
+          <button type="button" class="btn btn-default btn-sm"><%= link_to 'New city', new_city_path %></button>
+          </div>

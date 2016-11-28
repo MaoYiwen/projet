@@ -16,14 +16,27 @@
         <td><%= student.name %></td>
         <td><%= student.surname %></td>
         <td><%= student.birthday %></td>
-        <td><%= link_to 'Show', student %></td>
-        <td><%= link_to 'Edit', edit_student_path(student) %></td>
-        <td><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td>
+          <div class="btn-defaut">
+          <button type="button" class="btn btn-default btn-sm"><%= link_to 'Show', student %></button>
+          </div> 
+        </td>
+        <td>
+          <div class="btn-defaut">
+          <button type="button" class="btn btn-default btn-sm"><%= link_to 'Edit', edit_student_path(student) %></button>
+          </div>
+        </td>
+        <td>
+          <div class="btn-defaut">
+          <button type="button" class="btn btn-default btn-sm"><%= link_to 'Destroy', student %></button>
+          </div>
+        </td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New Student', new_student_path %>
+<div class="btn-defaut">
+          <button type="button" class="btn btn-default btn-sm"><%= link_to 'New student', new_student_path %></button>
+          </div>
