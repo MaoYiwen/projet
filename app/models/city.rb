@@ -4,7 +4,6 @@ class City < ActiveRecord::Base
   
   before_validation :geocode
   
-  public
   
   def forecast_io
       
