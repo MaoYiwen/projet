@@ -5,6 +5,8 @@ deploy:
   provider: heroku
   api_key:
     secure: gSBgO2kuDUEeVXa1JGHjQyuJBrI5PGcbtfVGugEKlqEpRZUbAP3FQs3MQP9wPHZ+RtmR7dz6HGTKT0j8xrlcSDci/pZxJbOGjxPteLJqal+p0cGCPtPlOgwJHzrav4p1pOebtmQu/kmOOLjIAKt8ozExYuWx7Bi1JJpGVhoZY/uzC/ew5U7dNz6pYilk90FOd26ExZQBEaUn0Km2FKLRo4yC90mDEM0p2voSNS09ZpF4GwJrcDSm+phUJFLjt5OYWiVKdTQ3ieYXCCG4t04kfhKJ/rBOJUMmpStoMrGRCwGCPdBsIrO25oRmZEFYpA8Mrl/pe85Jc+gdenjLgL+r0WxZswbyhwzFsBsRNknXJ592dN25W4eVP6qmM76CbG6fnSWDw3+661UNDzJYvnKcMfHyBf9cnMaravhVtLPMxQQ/mOys88+iPhrauNBZh/tMJ8P2nazYu4gddbkC2r3PRQKZr4KQ5Gvr11uO0UQTyz6E32DYAqoTuMfMbFXhEEiL8tglUjoNqG20ryenT26KUjqssJSVAZYr/RzsSbcbdQi2SRmQtzkRUv6LNDWOvdD5efUtbq3Rz2eTQOPvJy9TGm6+RpFOUl4r+vJmigpyZthhDwVjx7aY/sGYONcCLne+TU0k3XtCW9Wxf9v7P8W3CX7AmHmDZVPcXDoiFPIx3IY=
+  code_climate:
+        repo_token: fbeb3b43feea626c9dd7f59b66788147742802c1a5bcee1dc0c15a2ebc3a0e62
   app: mysterious-everglades-14523
   on:
     repo: MaoYiwen/projet
