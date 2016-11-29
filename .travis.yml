@@ -8,5 +8,3 @@ deploy:
    app: mysterious-everglades-14523
   on:
     repo: MaoYiwen/projet
-code_climate:
-        repo_token: fbeb3b43feea626c9dd7f59b66788147742802c1a5bcee1dc0c15a2ebc3a0e62
