@@ -34,6 +34,9 @@ group :development, :test do
   gem 'vcr', '~> 3.0', '>= 3.0.3'
 end
 
+# omniauth-github
+gem 'omniauth-github', '~> 1.1', '>= 1.1.2'
+
 # geocoding 
 gem 'nominatim', '~> 0.0.5'
 
