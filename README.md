@@ -2,7 +2,7 @@
 
 ![codeclimate](https://codeclimate.com/github/MaoYiwen/projet/badges/gpa.svg)
 
-![codeclimate](https://codeclimate.com/github/MaoYiwen/projet/badges/coverage.svg)
+![testconverge](https://codeclimate.com/github/MaoYiwen/projet/badges/coverage.svg)
 # projet
 Projet de l'annee
 
